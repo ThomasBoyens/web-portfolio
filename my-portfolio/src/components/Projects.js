@@ -11,9 +11,6 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Persoonlijke projecten
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Een paar persoonlijke projecten waar ik buiten mijn studie aan heb gewerkt.
-          </p>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
